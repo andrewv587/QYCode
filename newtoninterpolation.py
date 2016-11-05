@@ -25,8 +25,10 @@ def newton_intrep(x,y,t):
         temp =temp*(t-x[i])+a[i]
     return temp
 
-x=[1,2,3,-4,5]
-y=[2,48,272,1182,2262]
+#x=[1,2,3,-4,5]
+#y=[2,48,272,1182,2262]
+x=[0,1,2,-1,3]
+y=[-1,-1,-1,-7,5]
 
 value=newton_intrep(x,y,-1)
 print "polynomial value is:"
